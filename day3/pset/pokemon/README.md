@@ -46,4 +46,4 @@ Pokemon do more than learn and forget moves, right? They also battle other Pokem
 >>> Growl
 >>> Pikachu used Growl! It's not very effective.
 ```
-Tip: You can create a set of possible outcomes, then pop something off the set to determine how effective the move is.
+Tip: You can create a list or set of possible outcomes, then use `random.choice()` to choose one of the outcomes at random.
