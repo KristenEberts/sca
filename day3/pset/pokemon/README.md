@@ -5,15 +5,15 @@
 Create a Pokemon class!
 
 ### Background
-Classes are like templates or blueprints for objects. Pokemon also have a 'template': each creature has attributes like skills, levels, and a name.
+Classes are like templates or blueprints for objects. Pokemon also have a 'template': each creature has attributes like **name**, **XP** and **XP**, which we've already added.
 
 #### Thinking about Classes and Objects
 
-Now, what IS a Pokemon? What can a Pokemon do? In programming, when we create a class, we think about all the attributes and functions that class should have. So we need to think about the Pokemon class.
+So far, we've added attributes to describe what a Pokemon *is*. But what can a Pokemon *do*? In programming, when we create a class, we think about both the attributes and the functions that class should have. So we need to add methods (class-specific functions) to the Pokemon class. 
 
 ### Your Mission
 
-In a file called `pokemon.py`, create a **Pokemon** class that, when instantiated (created as an individual object), will be given a list of four moves. (Hint: define an `__init__` function to assign those moves to a `moves` attribute.) For example:
+In a file called `pokemon.py`, extend the **Pokemon** class so that, when instantiated, a new object of that class will be given a list of four moves. (Hint: extend the `__init__` function to assign those moves to a `moves` attribute.) For example:
 
 ```
 moves = ['Growl', 'Thunder Shock', 'Tail Whip', 'Quick Attack']
@@ -29,20 +29,21 @@ To test this, enter the Python interpreter by typing `python` in your console. I
 
 ```
 >>> moves = ['Growl', 'Thunder Shock', 'Tail Whip', 'Quick Attack']
-
 >>> Pikachu = Pokemon(moves)
 ```
 
-Then, you'll want to test your method! Using the example above, you could write Pikachu.forget('Growl'), then see if Pikachu forgets his **Growl** move!
+Then, you'll want to test your method! Using the example above, you could write `Pikachu.forget('Growl')`, then see if Pikachu forgets his **Growl** move!
 
 #### Learning Moves
 Next, create a **learn** method that adds a new move to the Pokemon's skill list, but only if there are fewer than four items in the list. If the list is full, print a message to the trainer. Be sure to test your method!
 
 ### Bonus Challenges
-Pokemon do more than learn and forget moves, right? They also have attributes like their **name**, their **type**, and their **level**. Add those attributes to your `Pokemon` class. Then, add a method called `fight` that prints a skill and its effectiveness, like so:
+Pokemon do more than learn and forget moves, right? They also battle other Pokemon! Add a method called `fight` that asks for a move as input, then prints out its effectiveness, like so:
 
 ```
 >>> Pikachu.fight()
+>>> What move? Pikachu knows Growl and Tail Whip.
+>>> Growl
 >>> Pikachu used Growl! It's not very effective.
 ```
 Tip: You can create a set of possible outcomes, then pop something off the set to determine how effective the move is.
