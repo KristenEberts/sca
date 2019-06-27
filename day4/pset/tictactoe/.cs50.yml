@@ -1,0 +1,4 @@
+lab50:
+  file:
+    - helpers.py
+    - tictactoe.py
