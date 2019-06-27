@@ -5,7 +5,7 @@
 Create a Pokemon class!
 
 ### Background
-Classes are like templates or blueprints for objects. Pokemon also have a 'template': each creature has attributes like **name**, **XP** and **XP**, which we've already added.
+Classes are like templates or blueprints for objects. Pokemon also have a 'template': each creature has attributes like **name**, **XP** and **HP**, which we've already added.
 
 #### Thinking about Classes and Objects
 
