@@ -23,7 +23,7 @@ Pokemon can learn moves, and forget moves, but they can only have four moves at 
 #### Forgetting Moves
 To train your Pokemon in something else, you need to first make them forget a move. Create a **forget** method that removes a specific move from the list. But what if a trainer tries to make a Pokemon forget a move that it doesn't know? (Using `in` might be helpful here).
 
-## Learning Moves
+#### Learning Moves
 Create a **learn** method that adds a new move to the Pokemon's skill list, but only if there are fewer than four items in the list. If the list is full, print a message to the trainer.
 
 #### Testing
