@@ -26,7 +26,7 @@ To test this, enter the Python interpreter by typing `python` in your console. I
 
 ```
 >>> moves = ['Growl', 'Thunder Shock', 'Tail Whip', 'Quick Attack']
->>> Pikachu = Pokemon(moves)
+>>> Pikachu = Pokemon('pikachu', 'pika', moves)
 ```
 
 Then, you'll want to test your method! Using the example above, you could write `Pikachu.forget('Growl')`, then see if Pikachu forgets his **Growl** move!
