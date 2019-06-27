@@ -37,7 +37,7 @@ Then, you'll want to test your method! Using the example above, you could write 
 #### Learning Moves
 Next, create a **learn** method that adds a new move to the Pokemon's skill list, but only if there are fewer than four items in the list. If the list is full, print a message to the trainer. Be sure to test your method!
 
-### Bonus Challenges
+### Bonus Challenge
 Pokemon do more than learn and forget moves, right? They also battle other Pokemon! Add a method called `fight` that asks for a move as input, then prints out its effectiveness, like so:
 
 ```
